@@ -53,8 +53,8 @@ turtle_follow_ws/                    # ROS工作空间
 │   │   ├── cfg/                    # 动态参数配置
 │   │   │   └── GuardConfig.cfg     # 参数配置文件
 │   │   ├── launch/                 # 启动文件目录
-│   │   │   └── turtle_gang.launch  # 完整系统启动文件
-│   │   └── README.md               # 详细实验报告
+│   │       └── turtle_gang.launch  # 完整系统启动文件
+│   │    
 │   │
 │   └── CMakeLists.txt              # 工作空间级构建配置
 ├── .catkin_workspace               # Catkin工作空间标识
