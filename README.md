@@ -34,7 +34,7 @@
 ## 项目结构
 
 ```
-turtle_follow_ws/                    # ROS工作空间
+turtle_follow_ws/                   # ROS工作空间
 ├── src/                            # 源代码目录
 │   ├── turtle_follower/            # 海龟跟随链实验包
 │   │   ├── CMakeLists.txt          # 构建配置文件
