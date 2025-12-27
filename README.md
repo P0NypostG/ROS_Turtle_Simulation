@@ -65,7 +65,7 @@ turtle_follow_ws/                   # ROS工作空间
 
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/你的用户名/ROS_Turtle_Simulation.git
+git clone https://github.com/P0NypostG/ROS_Turtle_Simulation.git
 cd ROS_Turtle_Simulation
 ```
 
@@ -150,19 +150,6 @@ rosrun rqt_plot rqt_plot /guard/min_dist
 ```bash
 rosrun rqt_graph rqt_graph
 ```
-
-## 项目特点
-
-### 技术特点
-1. **模块化设计**：每个功能独立为节点，便于维护和扩展
-2. **动态配置**：运行时参数调整，无需重新编译
-3. **多智能体协作**：展示不同的群体行为模式
-4. **人机交互**：键盘控制与自主行为结合
-
-### 教育价值
-1. **ROS入门学习**：涵盖节点、话题、服务、参数等核心概念
-2. **控制算法实践**：PID控制、状态机、路径跟踪等
-3. **多机器人系统**：领导-跟随、协同、对抗等模式
 
 ## 常见问题
 
