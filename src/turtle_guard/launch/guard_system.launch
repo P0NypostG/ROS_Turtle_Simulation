@@ -1,0 +1,20 @@
+<launch>
+    <!-- 1. 启动仿真器 -->
+    <node pkg="turtlesim" type="turtlesim_node" name="sim" output="screen"/>
+
+    <!-- 2. 启动盗窃团伙 -->
+    <node pkg="turtle_guard" type="gang.py" name="gang_node" output="screen"/>
+
+    <!-- 3. 启动警卫 -->
+    <node pkg="turtle_guard" type="guard.py" name="guard" output="screen"/>
+
+    <!-- 4. 工具：参数配置 -->
+    <node pkg="rqt_reconfigure" type="rqt_reconfigure" name="config_gui"/>
+
+    <!-- 5. 工具：数据绘图 (监控最近距离) -->
+    <node pkg="rqt_plot" type="rqt_plot" name="plot_gui" 
+          args="/guard/min_dist"/>
+
+    <!-- 6. 工具：节点关系图 -->
+    <node pkg="rqt_graph" type="rqt_graph" name="graph_gui"/>
+</launch>
