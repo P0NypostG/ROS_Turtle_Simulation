@@ -52,7 +52,7 @@ turtle_follow_ws/                    # ROS工作空间
 │   │   │   └── gang.py             # 盗窃团伙控制节点
 │   │   ├── cfg/                    # 动态参数配置
 │   │   │   └── GuardConfig.cfg     # 参数配置文件
-│   │   ├── launch/                 # 启动文件目录
+│   │   └── launch/                 # 启动文件目录
 │   │       └── turtle_gang.launch  # 完整系统启动文件
 │   │    
 │   │
